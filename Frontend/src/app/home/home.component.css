@@ -1,0 +1,269 @@
+
+:root{
+  font-style: italic;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+  .my-row{
+    padding: 2rem 1em;
+  }
+
+.my-row:first-child {
+    padding: none;
+
+  }
+
+.image{
+    position: relative;
+    /* background-color: lightgrey; */
+  }
+
+.video-bottom-section {
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+.video-details {
+    display: flex;
+    flex-direction: column;
+  }  
+
+.video-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  #banner{
+    background: #E4F5EB;
+    color: #fff;
+    padding-top: 1%;
+    height: 350px;
+  }
+
+  .main-head{
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+
+  .promo-desp p{
+    padding: 10px 2px 3px 220px;
+  }
+
+  .header-buttons {
+    padding-left: 15em;
+    }
+
+  .promo-title{
+    font-size: 50px;
+    color: #283e51;
+  }
+
+  .promo-desp{
+    color: #283e51;
+  }
+
+
+  .bottom-img{
+    background: #E4F5EB;
+
+    height: 200px;
+    width: 100%;
+  }
+
+  .img-fluid{
+    height: 50%;
+  }
+
+  .footer-img{
+    height: 200px;
+    width: 100%;
+    background: #E4F5EB;
+    color: #fff;
+  }
+
+  .section3{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+  }
+
+  .section3con{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+
+  .section3con h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+  }
+
+  .section3con:hover{
+     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+     transform: translateY(-20px);
+     background-color: #45b871;
+    color: #fff;
+    }
+
+  .title::before{
+    content: '';
+    background: #283e51;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(48px);
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .title::after{
+    content: '';
+    background: #283e51;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    font-weight: bold;
+    font-size: 35px;
+
+  }
+
+  .header-buttons a{
+     border: 1px solid #fff;
+     border-radius: 100px;
+     margin: 0 5px;
+     padding: 12px 35px;
+     outline: none;
+     color: #FFFFFF;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.4;
+     background-color: #45B871;
+     text-align: center;
+  }
+
+  .header-buttons a:hover{
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  }
+
+  .nocard{
+    font-size: 20px;
+    background: #d44139;
+    color: white;
+    margin-top: 15px;
+  }
+
+
+
+
+
+  .square{
+    height: 25em;
+    width: 25em;
+    background-color: #f1f1f1;
+    margin: 10px 10px 10px 200px;
+    z-index: 1;
+    border-radius: 10%;
+    margin-top: 100px;
+
+
+  }
+  
+  .square1{
+    position: absolute;
+    height:10em ;
+    width: 10em;
+    background-color: #FFFFFF;
+    margin-left: 5em;
+    margin-top: 5em;
+    border-radius: 10%;
+
+  }
+
+  .square2{
+    position: absolute;
+    height:10em ;
+    width: 10em;
+    background-color: #FFFFFF;
+    margin-left: 5em;
+    margin-top: 19em;
+    box-shadow: 10px 10px 5px #f9f9f9;
+    border-radius: 10%;
+
+
+  }
+
+  .square3{
+    position: absolute;
+    height:10em ;
+    width: 10em;
+    background-color: #FFFFFF;
+    margin-left: 17em;
+    margin-top: 6em;
+    box-shadow: 10px 0px 5px #f9f9f9;
+    border-radius: 10%;
+
+
+  }
+  .square4{
+    position: absolute;
+    height:10em ;
+    width: 10em;
+    background-color: #45B871;
+    margin-left: 17em;
+    margin-top: 21em;
+    box-shadow: 10px 10px 5px #f9f9f9;
+    border-radius: 10%;
+
+  }
+  .circle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #45b871;
+    margin: 35px 25px 0px 45px;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+    color: #fff;
+    
+  }
+
+   span{
+    position: absolute;
+    padding-top: 6em;
+    padding-left: 1em;
+    font-size: medium;
+  }
+
+  .content h1{
+    margin-top: 4em;
+    font-size: xx-large;
+  }
+  .content p{
+    color: #8C8E90;
+    font-size: medium;
+  }
